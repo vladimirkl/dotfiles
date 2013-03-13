@@ -24,3 +24,5 @@ endif
 let mapleader = ","
 nmap <leader>v :tabedit $MYVIMRC<CR>
 nnoremap <silent> <C-l> :<C-u>nohlsearch<CR><C-l>
+call togglebg#map("")
+

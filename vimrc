@@ -12,6 +12,10 @@ set smartcase
 set hlsearch
 set mouse=a
 
+set background=dark
+let g:solarized_termcolors=256
+colorscheme solarized
+
 " Source the vimrc file after saving it
 if has("autocmd")
   autocmd bufwritepost .vimrc source $MYVIMRC

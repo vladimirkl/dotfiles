@@ -1,4 +1,9 @@
 set nocompatible
+
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
+
 set number
 set t_Co=256
 set incsearch

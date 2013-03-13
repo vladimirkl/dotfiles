@@ -1,4 +1,2 @@
-dotvim
-======
-
-My vim config
+Vladimir Klyushnikov dotfiles
+=============================

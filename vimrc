@@ -1,6 +1,13 @@
 set nocompatible
+filetype off
 
-execute pathogen#infect()
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+Bundle 'altercation/vim-colors-solarized.git'
+Bundle 'nelstrom/vim-visual-star-search'
+
 syntax on
 filetype plugin indent on
 

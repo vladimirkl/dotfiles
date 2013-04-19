@@ -12,5 +12,6 @@ Bundle 'tpope/vim-surround'
 Bundle 'mileszs/ack.vim'
 Bundle 'kana/vim-textobj-user'
 Bundle 'kana/vim-textobj-lastpat'
+Bundle 'vim-ruby/vim-ruby'
 
 filetype plugin indent on

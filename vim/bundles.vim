@@ -13,5 +13,6 @@ Bundle 'mileszs/ack.vim'
 Bundle 'kana/vim-textobj-user'
 Bundle 'kana/vim-textobj-lastpat'
 Bundle 'vim-ruby/vim-ruby'
+Bundle 'ervandew/supertab'
 
 filetype plugin indent on

@@ -11,13 +11,19 @@ set hlsearch
 set mouse=a
 set autoread
 set background=dark
+set completeopt=longest,menuone
+let g:SuperTabLongestEnhanced = 1
 
 colorscheme solarized
 
-" Source the vimrc file after saving it
 if has("autocmd")
   autocmd bufwritepost .vimrc source $MYVIMRC
   autocmd bufwritepost bundles.vim source $BUNDLES_VIM
+  autocmd FileType *
+    \ if &omnifunc != '' |
+    \   call SuperTabChain(&omnifunc, "<c-p>") |
+    \   call SuperTabSetDefaultCompletionType("<c-x><c-u>") |
+    \ endif
 endif
 
 let mapleader = ","

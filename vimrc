@@ -2,6 +2,9 @@ let $BUNDLES_VIM = "~/.vim/bundles.vim"
 source $BUNDLES_VIM
 
 syntax on
+set expandtab
+set shiftwidth=2
+set softtabstop=2
 set number
 set t_Co=256
 set incsearch

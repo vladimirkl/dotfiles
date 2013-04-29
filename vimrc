@@ -15,7 +15,9 @@ set mouse=a
 set autoread
 set background=dark
 set completeopt=longest,menuone
+set laststatus=2
 let g:SuperTabLongestEnhanced = 1
+let g:Powerline_symbols = 'fancy'
 
 colorscheme solarized
 

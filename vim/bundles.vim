@@ -15,5 +15,9 @@ Bundle 'kana/vim-textobj-lastpat'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'ervandew/supertab'
 Bundle 'Lokaltog/vim-powerline'
+Bundle "MarcWeber/vim-addon-mw-utils"
+Bundle "tomtom/tlib_vim"
+Bundle "honza/vim-snippets"
+Bundle "garbas/vim-snipmate"
 
 filetype plugin indent on

@@ -15,3 +15,10 @@ eval `dircolors $HOME/.dir-colors/dircolors.256dark`
 [ -z "$TMUX" ] && export TERM=xterm-256color
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+if [[ -s "$HOME/.zshrc.local" ]]; then
+  source "$HOME/.zshrc.local"
+fi
+
+hash -d dls=$HOME/Downloads
+hash -d dfs=$HOME/Projects/dotfiles

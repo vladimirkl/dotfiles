@@ -7,3 +7,4 @@ for zfile in "${ZPREZTO_FILES[@]}"
 do
   ln -sf "$BASEDIR/$zfile" "$HOME/.$zfile"
 done
+ln -sf "$BASEDIR/tmux.conf" "$HOME/.tmux.conf"

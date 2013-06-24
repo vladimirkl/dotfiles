@@ -16,20 +16,19 @@ set autoread
 set background=dark
 set completeopt=longest,menuone
 set laststatus=2
+set statusline=%<%f\ %y[%{&ff}]%m%r%=%-14.(%l,%c%V%)\ %P
 let g:SuperTabLongestEnhanced = 1
-let g:Powerline_symbols = 'fancy'
 
 colorscheme solarized
 
-if has("autocmd")
-  autocmd bufwritepost .vimrc source $MYVIMRC
-  autocmd bufwritepost bundles.vim source $BUNDLES_VIM
-  autocmd FileType *
-    \ if &omnifunc != '' |
-    \   call SuperTabChain(&omnifunc, "<c-p>") |
-    \   call SuperTabSetDefaultCompletionType("<c-x><c-u>") |
-    \ endif
-endif
+au bufwritepost .vimrc source $MYVIMRC
+au bufwritepost bundles.vim source $BUNDLES_VIM
+au BufRead,BufNewFile *tmux.conf set filetype=tmux
+au FileType *
+  \ if &omnifunc != '' |
+  \   call SuperTabChain(&omnifunc, "<c-p>") |
+  \   call SuperTabSetDefaultCompletionType("<c-x><c-u>") |
+  \ endif
 
 let mapleader = ","
 nmap <leader>v :tabedit $MYVIMRC<CR>

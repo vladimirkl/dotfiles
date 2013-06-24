@@ -8,3 +8,5 @@ do
   ln -sf "$BASEDIR/$zfile" "$HOME/.$zfile"
 done
 ln -sf "$BASEDIR/tmux.conf" "$HOME/.tmux.conf"
+ln -sf "$BASEDIR/gitignore_global" "$HOME/.gitignore_global"
+git config --global core.excludesfile "$HOME/.gitignore_global"

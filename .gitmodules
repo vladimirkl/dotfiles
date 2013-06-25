@@ -4,9 +4,6 @@
 [submodule "gnome-terminal-colors-solarized"]
 	path = gnome-terminal-colors-solarized
 	url = https://github.com/sigurdga/gnome-terminal-colors-solarized.git
-[submodule "mate-terminal-colors-solarized"]
-	path = mate-terminal-colors-solarized
-	url = https://github.com/michelefoga/mate-terminal-colors-solarized.git
 [submodule "dircolors-solarized"]
 	path = dircolors-solarized
 	url = https://github.com/seebi/dircolors-solarized.git

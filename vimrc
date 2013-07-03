@@ -32,6 +32,7 @@ au FileType *
   \   call SuperTabChain(&omnifunc, "<c-p>") |
   \   call SuperTabSetDefaultCompletionType("<c-x><c-u>") |
   \ endif
+au FileType tmux set commentstring=#\ %s
 
 let mapleader = ","
 nmap <leader>v :tabedit $MYVIMRC<CR>

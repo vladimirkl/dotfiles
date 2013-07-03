@@ -16,6 +16,7 @@ set autoread
 set background=dark
 set completeopt=longest,menuone
 set laststatus=2
+set pastetoggle=<F2>
 set statusline=%<%f\ %y[%{&ff}]%m%r%=%-14.(%l,%c%V%)\ %P
 let g:SuperTabLongestEnhanced = 1
 let g:ctrlp_open_new_file = 'r'

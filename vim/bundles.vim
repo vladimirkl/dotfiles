@@ -20,6 +20,6 @@ Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
 Bundle "honza/vim-snippets"
 Bundle "garbas/vim-snipmate"
-Bundle "scrooloose/nerdcommenter"
+Bundle "tpope/vim-commentary"
 
 filetype plugin indent on

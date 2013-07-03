@@ -13,6 +13,3 @@
 [submodule "zprezto"]
 	path = zprezto
 	url = https://github.com/sorin-ionescu/prezto.git
-[submodule "solarized-mate-terminal"]
-	path = solarized-mate-terminal
-	url = https://github.com/oz123/solarized-mate-terminal

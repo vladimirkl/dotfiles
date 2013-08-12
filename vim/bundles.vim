@@ -6,7 +6,7 @@ call vundle#rc()
 
 Bundle 'gmarik/vundle'
 Bundle 'tpope/vim-repeat'
-Bundle 'altercation/vim-colors-solarized'
+Bundle 'vim-scripts/xoria256.vim'
 Bundle 'nelstrom/vim-visual-star-search'
 Bundle 'kien/ctrlp.vim'
 Bundle 'tpope/vim-surround'

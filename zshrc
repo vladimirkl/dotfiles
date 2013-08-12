@@ -12,6 +12,8 @@ fi
 
 # Customize to your needs...
 [ -z "$TMUX" ] && export TERM=xterm-256color
+bindkey ';5D' emacs-backward-word
+bindkey ';5C' emacs-forward-word
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
